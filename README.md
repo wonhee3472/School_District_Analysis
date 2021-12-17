@@ -15,11 +15,17 @@ One particular thing to note for this project is that there has been a report ab
     - Updated District Summary DataFrame
     ![](Resources/updated_district_df.png)
 
-As shown in the screenshots above, you can see that there isn't that much of a significant change in numbers for each columns in both DataFrames. The updated district summary dataframe seems to have a very small decrease in numbers except for `Average Reading Score`; both dataframes have `81.9`.
+    As shown in the screenshots above, you can see that there isn't that much of a significant change in numbers for each column in both DataFrames. The updated district summary dataframe seems to have a very small decrease in numbers except for `Average Reading Score`; both dataframes have `81.9`.
 
-- How is the school summary affected?
+- How is the school summary affected? / How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+    The only variable that contributes to a change to the dataframe is the exclusion of the 9th graders in Thomas High School. When it was created with the 9th graders in Thomas High school being included, the school was ranked at 8th highest in regards to `% Overall Passing` and you can see its data in the screenshot below:
+
+    ![](Resources/THS_8th.png)
+
+    On the other hand, when the 9th graders were included, you can see that the numbers for `% Passing Math`, `% Passing Reading`, and `% Overall Passing` significantly went up and the school is ranked at the second highest in regards to `% Overall Passing`:
+
+    ![](Resources/THS_2nd.png)
 
 - How does replacing the ninth-grade scores affect the following:
     - Math and reading scores by grade
