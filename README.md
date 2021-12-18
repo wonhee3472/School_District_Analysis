@@ -32,21 +32,24 @@ One particular thing to note for this project is that there has been a report ab
         The math and reading scores for 10th-12th grade remain the same but since we excluded the 9th grade in our analysis, `NaN` is shown for the 9th grade's scores in Thomas High School.
         ![](Resources/scores_by_grade.png)
 
-    - Scores by school spending
+    - Scores by school spending:
+
         There's virtually no changes to the numbers we see between the original and updated DataFrames:
         - Original DataFrame:
         ![](Resources/original_spending_summary_df.png)
         - Updated DataFrame:
         ![](Resources/updated_spending_summary_df.png)
 
-    - Scores by school size
+    - Scores by school size:
+
         Like the DataFrames above, there's also virtually no changes to the numbers we see between the original and updated DataFrames:
         - Original DataFrame:
         ![](Resources/original_size_summary_df.png)
         - Updated DataFrame:
         ![](Resources/updated_size_summary_df.png)
 
-    - Scores by school type
+    - Scores by school type:
+    
         Like the DataFrames above, there's also virtually no changes to the numbers we see between the original and updated DataFrames:
         - Original DataFrame:
         ![](Resources/original_type_summary_df.png)
