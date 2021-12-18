@@ -33,9 +33,25 @@ One particular thing to note for this project is that there has been a report ab
         ![](Resources/scores_by_grade.png)
 
     - Scores by school spending
+        There's virtually no changes to the numbers we see between the original and updated DataFrames:
+        - Original DataFrame:
+        ![](Resources/original_spending_summary_df.png)
+        - Updated DataFrame:
+        ![](Resources/updated_spending_summary_df.png)
 
     - Scores by school size
+        Like the DataFrames above, there's also virtually no changes to the numbers we see between the original and updated DataFrames:
+        - Original DataFrame:
+        ![](Resources/original_size_summary_df.png)
+        - Updated DataFrame:
+        ![](Resources/updated_size_summary_df.png)
+
     - Scores by school type
+        Like the DataFrames above, there's also virtually no changes to the numbers we see between the original and updated DataFrames:
+        - Original DataFrame:
+        ![](Resources/original_type_summary_df.png)
+        - Updated DataFrame:
+        ![](Resources/updated_type_summary_df.png)
 
 ## Summary: 
 
