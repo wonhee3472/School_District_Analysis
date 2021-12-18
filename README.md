@@ -49,7 +49,7 @@ One particular thing to note for this project is that there has been a report ab
         ![](Resources/updated_size_summary_df.png)
 
     - Scores by school type:
-    
+
         Like the DataFrames above, there's also virtually no changes to the numbers we see between the original and updated DataFrames:
         - Original DataFrame:
         ![](Resources/original_type_summary_df.png)
@@ -58,5 +58,11 @@ One particular thing to note for this project is that there has been a report ab
 
 ## Summary: 
 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+After replacing reading and math scores for the ninth grade at Thomas High School with NaNs, we'd suspect there will be changes to the following items in the DataFrame since we are removing data from the dataset: 
+    1. Total Student Count
+    2. Passing Percentage for Math Scores
+    3. Passing Percentage for Reading Scores
+    4. Overall Passing Percentage
+
+From the screenshots I've acquired, however, we confirmed that there's virtually no changes to the deduced dataframes. That is, we can go ahead and advise the board that their decisions from the previous dataset shouldn't be too off. 
 
